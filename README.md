@@ -1,21 +1,40 @@
 # Matchboxscope
 
-This is a repository for the smallest standalone low-cost open-source DIY incubator-contained microscope that can be used for a gazillion different applications. Sounds interesting? Continue reading!
+This is a fork repository part of the [ZtS project](https://zbudujtosam.pl) of the Matchboxscope project with the 
+aim of building the smallest standalone low-cost open-source DIY incubator-contained microscope that can be used for 
+a gazillion different applications. Sounds interesting? Continue reading!
 
-The core component of this device is a ESP32 microcontroller that is packed with a small Camera (OV2460) and microSD card slot, which makes it a perfect match for your microscopy project. In the most minimal version, you don't need anything but the ESP32-CAM and perhaps some chewing gum to raise the objective lens in order to create a finite corrected microscope.
+By now we've focused only on improvements for the Espresoscope XIAO model.
+
+
+Except for the XIAO model the core component of this device is a ESP32 microcontroller that is packed with a small 
+Camera (OV2460) and microSD card slot, which makes it a perfect match for your microscopy project. In the most 
+minimal version, you don't need anything but the ESP32-CAM and perhaps some chewing gum to raise the objective 
+lens in order to create a finite corrected microscope.
 
 However, we wanted to make the microscope a bit more practical and created some 3D printed parts that will realize the following devices:
 
-**The Anglerfish**: This device is well preserved in your beloved jars and hence watertight. Why? Throw it in your nearby pond and collect data how microfilm grows on the jars' surface. Fun! Follow the [**BLUE PILL 🔵**](Anglerfish.md)
+**The Anglerfish**: This device is well preserved in your beloved jars and hence watertight. Why? Throw it in your nearby 
+pond and collect data how microfilm grows on the jars' surface. Fun! Follow the [**BLUE PILL 🔵**](Anglerfish.md)
 
 <a href="#logo" name="logo"><img src="./IMAGES/Capture.PNG" width="500"></a>
 
 
-**The Matchboxscope**: This is a simple self-contained microscope, e.g. for tacking snapshots of your microfluidic chips, your parasite containing slides or just for fun. It comes with a minimum number of parts, but offers a spring-loaded z-stage. Also ideal for your incubator-contained microscopy experiments! Follow the [**RED PILL 🔴**](Matchboxscope.md)
+**The Matchboxscope**: This is a simple self-contained microscope, e.g. for tacking snapshots of your microfluidic chips, 
+your parasite containing slides or just for fun. It comes with a minimum number of parts, but offers a spring-loaded z-stage. 
+Also ideal for your incubator-contained microscopy experiments! Follow the [**RED PILL 🔴**](Matchboxscope.md)
 
 <a href="#logo" name="logo"><img src="./IMAGES/explosion.jpeg" width="200"></a>
 
-**The Z-Stacker**: It adds an automatic focusing unit to the *Matchboxscope* in order to create temporal Z-stacks of your beloved cell cultures. It needs more electronics, but still relies on the ESP32-CAM only. Lots of fun, too.  Follow the [**GREEN PILL 🟢**](Matchboxscope.md)
+
+**Espresoscope XIAO**: More modern version of the MatchBoxscope that uses a Seeed Xiao ESP32-S3 Sense board and camera at is core.
+ Follow the [**YELLOW PILL 🔴**](Matchboxscope.md)
+ 
+ ![EspressoScope XIAO 3D model](./IMAGES/EspressoScope_XIAO.png)
+ 
+
+**The Z-Stacker**: It adds an automatic focusing unit to the *Matchboxscope* in order to create temporal Z-stacks of your beloved 
+cell cultures. It needs more electronics, but still relies on the ESP32-CAM only. Lots of fun, too.  Follow the [**GREEN PILL 🟢**](Matchboxscope.md)
 
 Still curious? *Continue Reading by clicking on individual device sub-pages!*
 
